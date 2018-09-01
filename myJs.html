@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is my js</title>
+	<script type="text/javascript" src="myJs.js"></script>
+</head>
+<body>
+<h1>this is my js</h1>
+<div id="divs" style="width: 100px;height: 100px;border:1px solid #ccc;">this is a photo</div>
+<input type="button" value="this is a button" id="btn">
+<script>
+window.onload=function(){
+	var oinput=document.getElementById('btn')
+	
+	oinput.onclick=function(){
+		
+		var odiv=document.getElementById('divs');
+		odiv.style.display="none";
+	}
+}
+</script>
+</body>
+ </html>
