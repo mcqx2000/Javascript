@@ -3,18 +3,57 @@
 <head>
 	<title>this is my js</title>
 	<script type="text/javascript" src="myJs.js"></script>
+	<style>
+		
+
+.ani{
+width:100px;
+height:80px;
+/*margin:50px auto;*/
+/*overflow: hidden;*/
+/*box-shadow:0 0 5px rgba(0,0,0,1);*/
+/*background-size: cover;*/
+/*background-position: center;*/
+animation: "loops" 10s infinite;
+
+}
+@keyframes "loops" {
+0% {
+background:url(1.jpg)
+no-repeat;
+}
+/*25% {
+background:url(2.jpg)
+no-repeat;
+}*/
+50% {
+background:url(2.jpg)
+no-repeat;
+}
+/*75% {
+background:url(2.jpg)
+no-repeat;
+}
+*/100% {
+background:url(3.jpg)
+no-repeat;
+	</style>
 </head>
 <body>
 <h1>this is my js</h1>
 <div id="divs" style="width: 100px;height: 100px;border:1px solid #ccc;">this is a photo</div>
 <input type="button" value="this is a button" id="btn">
+<div class="ani"></div>
+<img src="1.jpg" alt="">
 <script>
 window.onload=function(){
-// js表单验证
+	// js表单验证
 	// css响应式布局，bootstrap响应式布局原理
 	// css定位
 	// window.onload和$.ready区别
 	// 
+	// 
+	// css3动画
 }
 </script>
 </body>
