@@ -42,3 +42,38 @@ function findRepeat(arr){
  		return num*factorial(num-1);
  	}
  }
+// 1.计算给定周长圆的面积？
+	function square(allLength){
+		var PI=3.14;
+		var r;
+		r=allLength/(2*PI);
+		return PI*r*r;
+	}
+// 2.定义两个函数，一个和加1，一个和减1？
+   function sum_ab(a,b){
+   	return a+b+1;
+   }
+   function dec_ab(a,b){
+   	return a+b-1;
+   } 
+ //3.计算1+2+3+...+100的值？
+  function sum(){
+  	var sum=0;
+  	for(var i=0;i<=100;i++){
+  		sum+=i;
+  	}
+  	return sum;
+  }
+  //4.定义一个函数person，内部有个局部变量name,如何在函数外访问和修改此变量？
+  var person=(function(){
+  		var name="xutao";
+  		return{
+  			getname:function(){
+  				return name;
+  			},
+  			setname:function(newname){
+  				name=newname;
+  				return newname;
+  			}
+  		};
+  })();
