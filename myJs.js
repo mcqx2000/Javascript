@@ -77,3 +77,7 @@ function findRepeat(arr){
   			}
   		};
   })();
+//5.js删除字符串头尾空格
+ function trim(str){
+ 	return str.replace(/(^\s*)|(\s*$)/g, "");
+ }
