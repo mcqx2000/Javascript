@@ -35,4 +35,105 @@ JavaScript：
 	9、HTML与XHTML ——二者有什么区别，你觉得应该使用哪一个并说出理由。
 
 	10、JSON —— 作用、用途、设计结构。
+Html
+Hapertext markup language
+超文本标记语言
+<html lang=”en”>
+<!—lang=”en”  告诉浏览器搜索引擎爬虫，网页是关于什么的内容-->
+<head>
+<meta charset=”utf-8”>
+<title>网页标题</title>
+</head>
+<body>
+	Life is shit! !!
+</body>
+</html>
+空格：文字分隔符
+Html编码符
+&nbsp;空格
+&lt; 小于
+&gt; 大于
+单标签
+<meta>
+换行符  <br/>
+分割线   <hr/>
+
+ol -----type=”1” 1/a/A/i/I   start=”1”   reserved=”reversed”
+ul------type=”desc”   square/circle 
+<img src=”” alt=”” title=””> 
+Src: url:  1.
+
+<a href=””></a>
+ａｎｃｈｏｒ――锚
+１.	超链接
+２.	锚点
+３.	打电话
+４.	发邮件
+５.	协议限定符　　　
+
+
+浏览器组成：
+（1）shell部分
+（2）内核部分：渲染引擎（语法规则和渲染）---html css 绘制渲染
+				Js引擎
+				其他模块（异步等）
+Js特点
+1．	解释性语言
+2．	单线程
+3．	ESMASCRIPT  --ES
+4．	BOM DOM  
+Js 执行队列---单线程
+Js 轮转时间片
+Js 三大部分（esmascript bom dom）
+
+IE              trident
+Chrome         webkit/blink
+Firefox          gecko
+Opera           presto
+Safari            webkit
+
+变量，值类型，运算符
+比较运算符，逻辑运算符，条件语句，循环语句
+
+函数，小练习，作用域上。
+函数
+１.	定义
+      函数声明
+      函数表达式
+２.	组成形式
+	函数名称
+	参数
+			实参  arguments    [s.s.s]    
+			形参   
+	返回值
+作用域精解
+重复—>偶合======高内聚 ，低偶合
+１.	写一个函数，功能是告知你所选定的小动物的叫声。
+２.	写一个函数实现加法计
+３.	定义一组函数，输入数字，逆转并输出汉字形式。
+４.	写一个函数，实现n的阶乘。
+５.	写一个函数，实现斐波那契数列。
+６.	要求输入一串低于10位的 数字，输出这串数字的中文大写。
+Eg:input 10000 output 壹万
+Eg:input1001010 output 一百万壹仟零壹拾
+递归 ，预编译
+Js三部曲
+１.	语法分析
+２.	预编译
+函数声明整体提升
+变量 声明提升
+预编译发生在函数执行的前一刻
+（1）创建AO对象{
+}（2）找形参和变量声明，值为undefined
+（3）实参和形参统一
+（4）函数声明，值为函数体。
+３.	解释执行 
+作用域精解
+每个
+AO  
+
+立即执行函
+--针对初始化功能的函数---执行完就被释放
+执行期上下文
+仿百度登陆
 
